@@ -1,0 +1,11 @@
+tags
+.*
+!.gitignore
+*.out
+old/
+used/
+sandbox/
+
+*.o
+x
+
