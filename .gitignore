@@ -6,6 +6,10 @@ old/
 used/
 sandbox/
 
+META-INF/
+output/
 *.o
+*.d
+*.class
 x
 

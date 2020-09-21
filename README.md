@@ -172,5 +172,136 @@ Installation: `sudo pacman -S nodejs`
 
 ### 017. TypeScript
 
+```bash
+tsc <source>.ts
+node <source>.js
+```
+
+Installation: `sudo pacman -S typescript`
+
+### 018. CoffeeScript
+
+```bash
+coffee <source>.coffee
+```
+
+Installation: `sudo pacman -S coffeescript`
+
+### 019. Dart
+
+```bash
+dart <source>.dart
+```
+
+Installation: `sudo pacman -S dart`
+
+### 020. WebAssembly
+
+```bash
+/usr/lib/emscripten/emcc <source>.cpp -s WASM=1 -o <source>.html
+```
+
+This command outputs `<source>.html`, `<source>.js` and `<source>.wasm`. They shall be served via a HTTP server. See [*Compiling a New C/C++ Module to WebAssembly - MDN*](https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm) for the detail.
+
+Installation: `sudo pacman -S emscripten`
+
+### 021. Java
+
+```bash
+/usr/lib/jvm/java-14-openjdk/bin/javac <source>.java
+/usr/lib/jvm/java-14-openjdk/bin/java <source>
+```
+
+Installation: `sudo pacman -S jdk-openjdk`
+
+### 022. Vim script
+
+```bash
+vim -c 'source <source>.exscript'
+```
+
+Installation: `sudo pacman -S gvim`
+
+### 023. Kotlin
+
+```bash
+kotlinc <source>.kt
+kotlin _<source>
+```
+
+Installation: `sudo pacman -S kotlin`
+
+### 024. Scala
+
+```bash
+scala <source>.scala
+```
+
+Installation: `sudo pacman -S scala`
+
+### 025. Groovy
+
+```bash
+JAVA_HOME=/usr/lib/jvm/java-14-openjdk
+groovy <source>.groovy
+```
+
+Installation: `sudo pacman -S groovy`
+
+### 026. Processing
+
+```bash
+cd <source> #The source code `<source>.pde` shall exist here.
+processing-java --sketch="${PWD}" --run
+```
+
+Installation: `sudo pacman -S processing`
+
+### 027. Swift
+
+```bash
+swift <source>.swift
+```
+
+Installation
+```bash
+cd ~/Build
+aur swift-bin
+cd swift-bin/
+makepkg -sir
+```
+
+### 028. Objective-C
+
+```bash
+gcc -std=gnu11 -lgnustep-base -lobjc <source>.m -o <source>.out
+./<source>.out
+```
+
+Installation: `sudo pacman -S gcc-objc gnustep-base`
+
+### 029. C#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- vim: set spell: -->
 
