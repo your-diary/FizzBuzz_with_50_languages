@@ -1,0 +1,3 @@
+set -e
+source='fizzbuzz'
+

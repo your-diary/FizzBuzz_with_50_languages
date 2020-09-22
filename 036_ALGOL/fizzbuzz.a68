@@ -1,0 +1,20 @@
+# This is a comment. The last number sign is needed unlike in Python. #
+
+FOR i FROM 1 TO 100 DO
+
+    IF (i MOD 3 = 0 AND i MOD 5 = 0) THEN
+        print("FizzBuzz")
+    ELSE IF (i MOD 3 = 0) THEN
+        print("Fizz")
+    ELSE IF (i MOD 5 = 0) THEN
+        print("Buzz")
+    ELSE
+        print(whole(i, 0))
+    FI
+    FI
+    FI;
+
+    print(new line)
+
+OD
+

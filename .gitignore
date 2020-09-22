@@ -1,15 +1,31 @@
 tags
 .*
 !.gitignore
-*.out
+!.vimspell.utf-8.add
+!.vimspell.utf-8.add.spl
 old/
 used/
 sandbox/
 
 META-INF/
-output/
+
+*.out
 *.o
-*.d
 *.class
+*.exe
+*.ali
+*.hi
+*.beam
+
 x
+x1
+x2
+
+fizzbuzz
+
+017_TypeScript/fizzbuzz.js
+020_WebAssembly/fizzbuzz.html
+020_WebAssembly/fizzbuzz.js
+020_WebAssembly/fizzbuzz.wasm
+033_GAS/appsscript.json
 
