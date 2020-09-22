@@ -529,6 +529,59 @@ elixir <source>.exs
 
 Installation: `sudo pacman -S elixir`
 
+### 050. Common Lisp
+
+```bash
+clisp <source>.lisp
+```
+
+Installation: `sudo pacman -S clisp`
+
+### 051. Clojure
+
+```bash
+clojure <source>.clj
+```
+
+Installation: `sudo pacman -S clojure`
+
+### 052. Scheme
+
+```bash
+scheme --batch-mode < <source>.scm
+```
+
+Installation: `sudo pacman -S mit-scheme`
+
+### 053. Prolog
+
+```bash
+echo | gprolog --consult-file "${source}.prolog" --query-goal <query command>
+```
+
+Installation: `sudo pacman -S gprolog`
+
+### 054. Smalltalk
+
+```bash
+gst <source>.st
+```
+
+Installation: `sudo pacman -S smalltalk`
+
+### 055. BASIC
+
+```bash
+```
+
+Installation: `sudo pacman -S `
+
+
+
+
+
+
+
 
 <!-- vim: set spell: -->
 
