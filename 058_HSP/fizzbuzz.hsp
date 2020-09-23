@@ -1,0 +1,21 @@
+// This is a comment.
+
+#runtime "hsp3cl"
+    repeat 100, 1
+        gosub *fizzbuzz
+    loop
+    end
+
+*fizzbuzz
+    if (cnt \ 3 = 0 && cnt \ 5 = 0) {
+        msg = "FizzBuzz"
+    } else : if (cnt \ 3 = 0) {
+        msg = "Fizz"
+    } else : if (cnt \ 5 = 0) {
+        msg = "Buzz"
+    } else {
+        msg = cnt
+    }
+    mes msg
+    return
+

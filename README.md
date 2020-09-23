@@ -572,16 +572,134 @@ Installation: `sudo pacman -S smalltalk`
 ### 055. BASIC
 
 ```bash
+fbc -lang deprecated <source>.bas
+./<source>
 ```
 
-Installation: `sudo pacman -S `
+Installation: `sudo pacman -S freebasic`
 
+### 056. COBOL
 
+```bash
+cobc -x <source>.cobol
+./<source>
+```
 
+Installation: `sudo pacman -S gnucobol`
 
+### 057. Nadesiko
 
+```bash
+cnako3 <source>.nako3
+```
 
+Installation: `npm install --global nadesiko3`
 
+### 058. HSP (Hot Soup Processor)
+
+```bash
+hspcmp <source>.hsp
+hsp3cl <source>.ax
+```
+
+Installation
+```bash
+#Hereafter we use Ubuntu because
+#1. Only debian-based distributions are officially supported.
+#2. With newer `gcc`, `make` fails since the C++ source codes are written badly.
+#   See |https://github.com/onitama/OpenHSP/issues/12| for the detail.
+#   Of course, Arch Linux uses the latest `gcc` by default, which is problematic in this case.
+docker run -it ubuntu
+
+set -o vi
+
+apt update
+apt install gcc git make vim
+
+git clone "https://github.com/onitama/OpenHSP"
+cd OpenHSP/
+sed -i 's/sudo //g' setup.sh
+./setup.sh
+```
+
+### 059. R
+
+```bash
+R --no-echo --file=<source>.r
+```
+
+Installation: `sudo pacman -S r`
+
+### 060. Julia
+
+```bash
+julia <source>.jl
+```
+
+Installation: `sudo pacman -S julia`
+
+### 061. Octave
+
+```bash
+octave <source>.m
+```
+
+Installation: `sudo pacman -S octave`
+
+### 062. Haxe
+
+```bash
+haxe --run <source>.hx
+```
+
+Installation: `sudo pacman -S haxe`
+
+### 063. Nim
+
+```bash
+nim compile --run <source>.nim
+```
+
+or
+
+```bash
+nim compile <source>.nim
+./<source>
+```
+
+Installation: `sudo pacman -S nim`
+
+### 064. Brainfuck
+
+```bash
+bfc <source>.brainf
+mv 'a.out' <source>.out
+./<source>.out
+```
+
+Installation
+```bash
+cd ~/Build
+aur brainfuck
+cd brainfuck
+makepkg -sir
+```
+
+### 065. gnuplot
+
+```bash
+gnuplot <source>.gp
+```
+
+Installation: `sudo pacman -S gnuplot`
+
+### 066. bc
+
+```bash
+bc <source>.bc
+```
+
+Installation: `sudo pacman -S bc`
 
 <!-- vim: set spell: -->
 

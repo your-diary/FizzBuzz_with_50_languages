@@ -16,6 +16,7 @@ META-INF/
 *.ali
 *.hi
 *.beam
+*.ax
 
 x
 x1

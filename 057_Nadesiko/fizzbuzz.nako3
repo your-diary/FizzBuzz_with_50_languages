@@ -1,0 +1,15 @@
+# This is a comment.
+
+●(Nで)FizzBuzzStringとは
+    IS_FIZZは、Nを3で割った余りが0と等しい。
+    IS_BUZZは、Nを5で割った余りが0と等しい。
+    もし、IS_FIZZ、かつ、IS_BUZZならば、それは「FizzBuzz」。
+    違えば、もし、IS_FIZZならば、それは「Fizz」。
+    違えば、もし、IS_BUZZならば、それは「Buzz」。
+    違えば、それはN
+ここまで
+
+Nを1から100まで繰り返す
+    NでFizzBuzzStringして表示。
+ここまで。
+
