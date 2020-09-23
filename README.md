@@ -16,6 +16,8 @@ For each programming language, this project includes
 
 3. How to comment out string in the language (see the first line of the source code).
 
+4. How to implement the FizzBuzz game (see the source code). For a limited number of difficult languages (e.g. Assembly), we only implemented Hello World.
+
 ## For Some Languages
 
 ### Brainfuck
@@ -72,6 +74,8 @@ This section is for contributors of this project.
 5. Put the source code `fizzbuzz.some_extension` here.
 
 6. `bash yrun.sh > x && vimdiff x ../correct_output.txt` to check the result is correct.
+
+7. Confirm `fizzbuzz.some_extension` starts with a comment line (e.g. `# This is a comment.`).
 
 <a id='setup'></a>
 # 6. Setup Development Environments
