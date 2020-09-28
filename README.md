@@ -10,8 +10,6 @@ In this project, we implement the FizzBuzz game with 50+ programming languages.
 
 # 2. Contents
 
-## For Every Language
-
 For each programming language, this project includes
 
 1. How to install the compiler or the interpreter for the language (see [*Setup Development Environments*](#setup)).
@@ -21,14 +19,6 @@ For each programming language, this project includes
 3. How to comment out string in the language (see the first line of the source code).
 
 4. How to implement the FizzBuzz game (see the source code). For a limited number of difficult languages (e.g. Assembly), we only implemented Hello World.
-
-## For Some Languages
-
-### Brainfuck
-
-- [`./064_Brainfuck/README.md`](./064_Brainfuck/README.md): An introduction documentation for Brainfuck.
-
-- `./064_Brainfuck/bf2c.py`: A Python script which converts a Brainfuck source file to a C source file.
 
 # 3. Assumptions
 
