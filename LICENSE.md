@@ -1,11 +1,11 @@
-In writing many of the codes in this repository, we used as references the sample codes distributed with the book 『プログラミング言語大全』(Encyclopedia of Programming Languages) by 酒徳峰章(Mineaki Sakatoku). Although no explicit license information is included in the sample codes, we directly made contact with the author to confirm they are distributed under the MIT license. Taking this into account, we apply the MIT License to this repository as a whole.
+In writing many of the codes in this repository, we used as references the sample codes distributed with the book 『プログラミング言語大全』(Encyclopedia of Programming Languages) by kujirahand.com. Although no explicit license information is included in the sample codes, we directly made contact with the author to confirm they are distributed under the MIT license. Taking this into account, we apply the MIT License to this repository as a whole.
 
 
 
 MIT License
 
 Copyright (c) 2020 Manatsu Takahashi
-Copyright (c) 2020 Mineaki Sakatoku
+Copyright (c) 2020 kujirahand.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

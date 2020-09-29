@@ -6,7 +6,7 @@ In this project, we implement the FizzBuzz game with 50+ programming languages.
 
 #### References
 
-- 『[プログラミング言語大全](https://gihyo.jp/book/2020/978-4-297-11347-6)』(Encyclopedia of Programming Languages) by Mineaki Sakatoku
+- 『[プログラミング言語大全](https://gihyo.jp/book/2020/978-4-297-11347-6)』(Encyclopedia of Programming Languages) by [kujirahand.com](kujirahand.com)
 
 # 2. Contents
 
