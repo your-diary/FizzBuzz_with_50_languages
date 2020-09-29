@@ -5,7 +5,7 @@ In writing many of the codes in this repository, we used as references the sampl
 MIT License
 
 Copyright (c) 2020 Manatsu Takahashi
-Copyright (c) 2020 kujirahand.com
+Copyright (c) 2020 kujirahand.com <http://kujirahand.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
