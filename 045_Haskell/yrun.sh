@@ -1,5 +1,5 @@
 source "../yrun_template.sh"
 
-ghc -dynamic "${source}.hs"
+ghc -v0 -Wall "${source}.hs"
 "./${source}"
 
