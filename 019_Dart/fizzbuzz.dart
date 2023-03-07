@@ -1,29 +1,28 @@
 // This is a comment.
 
-isFizz(int i) {
-    return (i % 3 == 0);
+bool isFizz(int i) {
+  return (i % 3 == 0);
 }
 
-isBuzz(int i) {
-    return (i % 5 == 0);
+bool isBuzz(int i) {
+  return (i % 5 == 0);
 }
 
-fizzbuzz(int i) {
-    if (isFizz(i) && isBuzz(i)) {
-        return "FizzBuzz";
-    } else if (isFizz(i)) {
-        return "Fizz";
-    } else if (isBuzz(i)) {
-        return "Buzz";
-    } else {
-        return i;
-    }
+String fizzbuzz(int i) {
+  if (isFizz(i) && isBuzz(i)) {
+    return "FizzBuzz";
+  } else if (isFizz(i)) {
+    return "Fizz";
+  } else if (isBuzz(i)) {
+    return "Buzz";
+  } else {
+    return i.toString();
+  }
 }
 
-main() {
-    for (var i = 1; i <= 100; ++i) {
-        var result = fizzbuzz(i);
-        print(result);
-    }
+void main() {
+  for (var i = 1; i <= 100; ++i) {
+    final result = fizzbuzz(i);
+    print(result);
+  }
 }
-
